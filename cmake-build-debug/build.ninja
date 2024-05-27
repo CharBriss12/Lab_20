@@ -97,6 +97,24 @@ build CMakeFiles/Lab_20.dir/Libs/vector_void/vector_void.c.obj: C_COMPILER__Lab_
   OBJECT_DIR = CMakeFiles\Lab_20.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab_20.dir\Libs\vector_void
 
+build CMakeFiles/Lab_20.dir/Libs/algorithms/algorithms.c.obj: C_COMPILER__Lab_20_Debug C$:/Users/charl/CLionProjects/Lab_20/Libs/algorithms/algorithms.c || cmake_object_order_depends_target_Lab_20
+  DEP_FILE = CMakeFiles\Lab_20.dir\Libs\algorithms\algorithms.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Lab_20.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_20.dir\Libs\algorithms
+
+build CMakeFiles/Lab_20.dir/Libs/files/files.c.obj: C_COMPILER__Lab_20_Debug C$:/Users/charl/CLionProjects/Lab_20/Libs/files/files.c || cmake_object_order_depends_target_Lab_20
+  DEP_FILE = CMakeFiles\Lab_20.dir\Libs\files\files.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Lab_20.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_20.dir\Libs\files
+
+build CMakeFiles/Lab_20.dir/Libs/Lab_20/Lab_20.c.obj: C_COMPILER__Lab_20_Debug C$:/Users/charl/CLionProjects/Lab_20/Libs/Lab_20/Lab_20.c || cmake_object_order_depends_target_Lab_20
+  DEP_FILE = CMakeFiles\Lab_20.dir\Libs\Lab_20\Lab_20.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Lab_20.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_20.dir\Libs\Lab_20
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lab_20
@@ -105,7 +123,7 @@ build CMakeFiles/Lab_20.dir/Libs/vector_void/vector_void.c.obj: C_COMPILER__Lab_
 #############################################
 # Link the executable Lab_20.exe
 
-build Lab_20.exe: C_EXECUTABLE_LINKER__Lab_20_Debug CMakeFiles/Lab_20.dir/main.c.obj CMakeFiles/Lab_20.dir/Libs/matrix/matrix.c.obj CMakeFiles/Lab_20.dir/Libs/set_bits/set_bits.c.obj CMakeFiles/Lab_20.dir/Libs/string/string.c.obj CMakeFiles/Lab_20.dir/Libs/set_ordered/set_ordered.c.obj CMakeFiles/Lab_20.dir/Libs/set_unordered/set_unordered.c.obj CMakeFiles/Lab_20.dir/Libs/vector/vector.c.obj CMakeFiles/Lab_20.dir/Libs/vector_void/vector_void.c.obj
+build Lab_20.exe: C_EXECUTABLE_LINKER__Lab_20_Debug CMakeFiles/Lab_20.dir/main.c.obj CMakeFiles/Lab_20.dir/Libs/matrix/matrix.c.obj CMakeFiles/Lab_20.dir/Libs/set_bits/set_bits.c.obj CMakeFiles/Lab_20.dir/Libs/string/string.c.obj CMakeFiles/Lab_20.dir/Libs/set_ordered/set_ordered.c.obj CMakeFiles/Lab_20.dir/Libs/set_unordered/set_unordered.c.obj CMakeFiles/Lab_20.dir/Libs/vector/vector.c.obj CMakeFiles/Lab_20.dir/Libs/vector_void/vector_void.c.obj CMakeFiles/Lab_20.dir/Libs/algorithms/algorithms.c.obj CMakeFiles/Lab_20.dir/Libs/files/files.c.obj CMakeFiles/Lab_20.dir/Libs/Lab_20/Lab_20.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab_20.dir
